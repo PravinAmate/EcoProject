@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyProfileActivity">
+
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorBlack"
+        android:theme="@style/ThemeOverlay.AppCompat.Light"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+        <ImageView
+            android:layout_width="@dimen/histo_margin_top"
+            android:layout_height="@dimen/menu_image_width"
+            android:id="@+id/backArrow1"
+            android:layout_marginLeft="@dimen/margin_passcode_edit"
+            android:src="@drawable/backarro"
+            />
+        <TextView android:id="@+id/simpleSearchView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/histo_margin_top"
+            android:text="My Profile"
+            android:textSize="@dimen/button_text"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            />
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_below="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/header_cover_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_width"
+            android:scaleType="centerCrop"
+            android:background="@color/skyblue"
+            />
+
+        <ImageButton
+            android:id="@+id/user_profile_photo"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_width"
+            android:layout_below="@+id/header_cover_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-70dp"
+            android:background="@drawable/profile_circular_image"
+
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_profile" />
+
+        <LinearLayout
+            android:id="@+id/profile_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_width"
+            android:layout_below="@+id/header_cover_image"
+            android:orientation="vertical"
+            android:elevation="@dimen/margin_passcode_edit"
+
+            >
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lLayout0"
+            android:orientation="vertical"
+            android:layout_below="@id/profile_layout"
+
+            android:layout_marginBottom="@dimen/imgv_progress_history"
+            android:background="@color/colorWhite"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/lLayout1"
+                android:orientation="horizontal"
+                android:layout_below="@id/profile_layout"
+                android:weightSum="1"
+
+                android:layout_marginBottom="@dimen/passcode_width"
+                android:background="@color/colorWhite"
+                >
+
+                <ImageView
+                    android:id="@+id/imgUser"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:src="@mipmap/ic_launcher"
+                    android:textColor="@color/colorWhite"
+                    android:layout_weight="0.2"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtUserName"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:text="Pravin"
+                    android:gravity="center"
+                    android:textSize="@dimen/contract_text_value"
+                    android:textColor="@color/colorBlack"
+                    android:layout_weight="0.6"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/imgUserEdit"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:layout_weight="0.2"
+                    android:layout_gravity="right"
+                    android:src="@drawable/edit"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/switch_currency_icon_height_width"
+                android:id="@+id/lLayout2"
+                android:orientation="horizontal"
+                android:layout_below="@id/lLayout1"
+                android:weightSum="1"
+
+                android:layout_marginBottom="@dimen/passcode_width"
+                android:background="@color/colorWhite"
+                >
+
+                <ImageView
+                    android:id="@+id/imgLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:src="@drawable/locationicon"
+                    android:textColor="@color/colorWhite"
+                    android:layout_weight="0.2"
+
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:text="Pune"
+                    android:gravity="center"
+                    android:textSize="@dimen/contract_text_value"
+                    android:textColor="@color/colorBlack"
+                    android:layout_weight="0.6"
+                    android:textStyle="bold"/>
+
+                <ImageView
+                    android:id="@+id/txtEditLocation"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:layout_weight="0.2"
+                    android:layout_gravity="right"
+                    android:src="@drawable/edit"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/switch_currency_icon_height_width"
+                android:id="@+id/lLayout3"
+                android:orientation="horizontal"
+                android:layout_below="@id/lLayout2"
+                android:weightSum="1"
+
+                android:layout_marginBottom="@dimen/passcode_width"
+                android:background="@color/colorWhite"
+                >
+
+                <ImageView
+                    android:id="@+id/imgContact"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:src="@drawable/phone"
+                    android:textColor="@color/colorWhite"
+                    android:layout_weight="0.2"
+
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtContact"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:text="9420340244"
+                    android:gravity="center"
+                    android:textSize="@dimen/contract_text_value"
+                    android:textColor="@color/colorBlack"
+                    android:layout_weight="0.6"
+                    />
+
+                <ImageView
+                    android:id="@+id/txtImageContact"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:layout_weight="0.2"
+                    android:layout_gravity="right"
+                    android:src="@drawable/edit"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/switch_currency_icon_height_width"
+                android:id="@+id/lLayout4"
+                android:orientation="horizontal"
+                android:layout_below="@id/lLayout3"
+                android:weightSum="1"
+
+                android:layout_marginBottom="@dimen/passcode_width"
+                android:background="@color/colorWhite"
+                >
+
+                <ImageView
+                    android:id="@+id/imgEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:src="@drawable/mail"
+                    android:textColor="@color/colorWhite"
+                    android:layout_weight="0.2"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/txtEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:text="amatepm100@gmailcom"
+                    android:gravity="center"
+
+                    android:layout_gravity="center_horizontal"
+                    android:textColor="@color/colorBlack"
+                    android:layout_weight="0.6"
+                    />
+
+                <ImageView
+                    android:id="@+id/imgEmailEditer"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:layout_weight="0.2"
+                    android:layout_gravity="right"
+                    android:src="@drawable/edit"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardCornerRadius="@dimen/bank_transfer_margin"
+        card_view:cardElevation="@dimen/acc_margin_top"
+
+     android:background="@drawable/rounded_corner_grey_border"
+        card_view:cardUseCompatPadding="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/acc_margin_top">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            android:padding="@dimen/acc_margin_top">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/no_card_image"
+                android:src="@drawable/almond"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/no_card_image"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_weight="1"
+                android:padding="@dimen/swift_margin_top">
+                <TextView
+                    android:id="@+id/txtProductName"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Product Name"
+                    android:textStyle="bold"
+
+                    />
+                <LinearLayout
+                    android:id="@+id/linearLayout9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/swift_margin_top"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Quantity : "
+                        android:textSize="@dimen/tip_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtDiscount"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLines="2"
+                        android:text="1"
+                        android:textSize="@dimen/tip_text_size" />
+                </LinearLayout>
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/swift_margin_top"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txtTotal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Total : "
+                        android:textSize="@dimen/tip_text_size"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtTotalValue"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:maxLines="2"
+                        android:text="300"
+                        android:textSize="@dimen/tip_text_size"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+             android:background="@color/btn_grey_sign_up"
+                >
+            </View>
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/text_padding"
+                android:layout_weight="1"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txtRemove"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center"
+                    android:text="REMOVE"
+                    android:textSize="@dimen/sub_header_activity"
+                    android:textStyle="bold" />
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorPrimaryDark"
+                    />
+                <LinearLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/switch_currency_icon_height_width"
+                    android:layout_marginTop="@dimen/text_padding"
+                    android:layout_weight="0.5"
+                    android:weightSum="1"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+                <ImageView
+                    android:id="@+id/txtLAst"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:maxLines="2"
+                    android:padding="@dimen/text_padding"
+                    android:src="@drawable/edit"
+android:layout_weight="0.3"
+                     />
+                <TextView
+
+                    android:id="@+id/txtLAste"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.7"
+                    android:maxLines="2"
+                    android:gravity="left"
+                    android:text="EDIT"
+                    android:textSize="@dimen/sub_header_activity"
+                    android:textStyle="bold"
+                    />
+                </LinearLayout>
+        </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/btn_grey_sign_up"
+                >
+            </View>
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

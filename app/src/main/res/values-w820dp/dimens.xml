@@ -1,0 +1,53 @@
+<resources>
+    <!-- Example customization of dimensions originally defined in res/values/dimens.xml
+         (such as screen margins) for screens with more than 820dp of available width. This
+         would include 7" and 10" devices in landscape (~960dp and ~1280dp respectively). -->
+    <dimen name="activity_horizontal_margin">64dp</dimen>
+    <dimen name="header_height">48dp</dimen>
+    <dimen name="top_dist">30pt</dimen>
+    <dimen name="middle_dist">20pt</dimen>
+    <dimen name="profile_image_width_height">60dp</dimen>
+
+    <dimen name="header_one">49dp</dimen>
+    <dimen name="header_two">17pt</dimen>
+    <dimen name="header_five">16pt</dimen>
+    <dimen name="passcode_size">12sp</dimen>
+    <dimen name="header_three">49dp</dimen>
+    <dimen name="header_four">34pt</dimen>
+    <dimen name="sub_header">17pt</dimen>
+    <dimen name="sub_header_activity">16pt</dimen>
+    <dimen name="tab_bar">10pt</dimen>
+
+    <dimen name="sign_up_img_height">24dp</dimen>
+    <dimen name="sign_up_img_width">24dp</dimen>
+    <dimen name="sign_up_header">24dp</dimen>
+
+    <dimen name="activity_contarct_margin">16dp</dimen>
+    <dimen name="contract_text_size">14sp</dimen>
+    <dimen name="activity_contract_margin_top">18dp</dimen>
+    <dimen name="btn_payment_details_margin_top">18dp</dimen>
+    <dimen name="button_payment_details_height">70dp</dimen>
+    <dimen name="imp_info_margin_left">20dp</dimen>
+    <dimen name="imp_info_margin_top">16dp</dimen>
+    <dimen name="imp_info_text_size">18sp</dimen>
+    <dimen name="payment_ref_margin_left">20dp</dimen>
+    <dimen name="payment_ref_margin_top">5dp</dimen>
+    <dimen name="text_size_value">17sp</dimen>
+    <dimen name="text_size_header">13sp</dimen>
+
+    <dimen name="history_text_margin_left">20dp</dimen>
+    <dimen name="histo_margin_top">20dp</dimen>
+    <dimen name="histoy_margin_top">5dp</dimen>
+    <dimen name="histoy_margin_top_country">5dp</dimen>
+    <dimen name="margintop_branch_code">16dp</dimen>
+    <dimen name="swift_margin_top">5dp</dimen>
+    <dimen name="swift_code_margin_top">16dp</dimen>
+    <dimen name="acc_margin_top">5dp</dimen>
+    <dimen name="accmar_margin_top">16dp</dimen>
+    <dimen name="small_text_contract">12sp</dimen>
+    <dimen name="contract_text_value">15sp</dimen>
+    <dimen name="history_view_margin">20dp</dimen>
+    <dimen name="imgv_progress_history">10dp</dimen>
+    <dimen name="imgv_progress_history_margin">5dp</dimen>
+    <dimen name="tip_text_size">14sp</dimen>
+</resources>

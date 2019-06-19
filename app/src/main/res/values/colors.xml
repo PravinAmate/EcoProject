@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBlack">#000000</color>
+
+
+    <color name="violet_purpal">#9400D3</color>
+    <color name="skyblue">#00bfff</color>
+    <color name="grean">#0B6623</color>
+
+    <color name="grean_light">#50C878</color>
+    <color name="yelow_dark">#FFD98754</color>
+    <color name="yelow_fent">#FFEFA476</color>
+
+
+    <color name="faint_gray">#848484</color>
+    <color name="dark_blue">#0065f3</color>
+    <color name="gray_seven">#a3a3af</color>
+    <color name="pumpkin">#e67200</color>
+    <color name="dark">#353550</color>
+    <color name="faint_black">#666666</color>
+    <color name="whitish_grey">#ebebeb</color>
+    <color name="orangey_red">#f64200</color>
+    <color name="greenblue">#00cb84</color>
+    <color name="azure">#088cff</color>
+    <color name="white_two">#ffffff</color>
+    <color name="black2">#121212</color>
+    <color name="white_three">#0d000000</color>
+    <color name="warm_grey">#979797</color>
+    <color name="orange_header">#f05000</color>
+    <color name="exchange_rate_color">#626262</color>
+    <color name="green_buttons">#00786c</color>
+    <color name="divider">#9b9b9b</color>
+    <color name="drawer_bg_grey">#99d7d7d7</color>
+    <color name="drawer_item_bg_grey">#339b9a9b</color>
+    <color name="drawer_selected_item">#c04700</color>
+    <color name="drawer_shadow">#66000000</color>
+    <color name="orange_fill">#ff6300</color>
+    <color name="password_hint_color_sign_up">#9a9aa8</color>
+    <color name="hint_color_sign_up">#4a4a4a</color>
+    <color name="btn_grey_sign_up">#d8d8d8</color>
+    <color name="sign_up_field_color">#4a4a4a</color>
+    <color name="white_btn_disabled">#6eb9b4</color>
+    <color name="edit_profile_orange">#fb6000</color>
+    <color name="profile_user_details">#6d6d6d</color>
+    <color name="orange_light">#c64e00</color>
+    <color name="green_tick_bg">#00ac69</color>
+    <color name="pop_fade_bg">#99000000</color>
+    <color name="someone_new_bg">#f4f4f4</color>
+    <color name="CTA_orange">#f64200</color>
+    <color name="background">#f4f4f4</color>
+    <color name="back_white">#ffffff</color>
+    <color name="pdf_download">#757575</color>
+    <color name="light_black">#121212</color>
+    <color name="background_popup">#80000000</color>
+    <color name="background_history_view">#d8d8d8</color>
+    <color name="complte_circle_color">#00aa67</color>
+    <color name="inprogress_circle_color">#ffb100</color>
+    <color name="awaiting_circle_color">#e20000</color>
+    <color name="text_confirm_edit">#e93906</color>
+    <color name="back_confirm_pay">#d8d8d8</color>
+    <color name="text_confirm_inst">#0f0f0f</color>
+    <color name="btn_confirm_pay">#00aa5e</color>
+    <color name="btn_confirm_text">#f7f7f7</color>
+    <color name="tip_color_grey_light">#717171</color>
+    <color name="radio_button_selected">#fb6000</color>
+    <color name="radio_button_deselected">#e9e9e9</color>
+    <color name="txtcolorRateFooter">#2a2a2a</color>
+    <color name="darkyelow">#FFF9BE57</color>
+
+</resources>
